@@ -1,0 +1,25 @@
+.bannerContainer {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+  background-color: #1771dd;
+  color: #ffffff;
+}
+
+.job-title {
+  font-size: 2.5em;
+  font-weight: 900;
+  line-height: 64px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.job-subtitle {
+  font-size: 1.25em;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 400;
+}

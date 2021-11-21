@@ -1,10 +1,11 @@
 import React from 'react';
-import styles from './ApplicationForm.module.css';
+import Header from './Components/HeaderComponent/Header';
+//import styles from './ApplicationForm.module.css';
 
 interface Props {}
 
 export const ApplicationForm = (props: Props) => (
-    <div className={styles.exampleClass}>
-      Please put the form here
+    <div>
+      <Header />
     </div>
 );

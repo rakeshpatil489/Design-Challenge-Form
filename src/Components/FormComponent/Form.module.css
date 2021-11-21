@@ -14,3 +14,9 @@
     font-size: 0.875em;
     line-height: 20px;
 }
+
+/* divider */
+hr{
+    margin-bottom: 24px;
+    border: 1px solid #E6EEFF;
+}

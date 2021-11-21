@@ -1,5 +1,6 @@
 import React from "react";
 import InputField from "../InputfieldComponent/InputField";
+import Button from "../ButtonComponent/Button";
 import styles from "./Form.module.css";
 
 function Form() {
@@ -14,14 +15,15 @@ function Form() {
         </label>
       </div>
 
+
       <div className={styles.inputfieldContainer}>
         <h3 className={styles.inputfieldHeading}>Personal Info</h3>
-
         {/* Inputfields */}
         <InputField />
         <InputField />
         <InputField />
       </div>
+
 
       <div className={styles.uploadContainer}>
         <h3 className={styles.uploadHeading}>Upload Documents</h3>
@@ -29,6 +31,12 @@ function Form() {
           File accepcted - .PDF, .docs/docx - Max file size 20kb for each
         </label>
       </div>
+
+      {/* Divider */}
+      <hr />
+
+      {/* Button Component */}
+      <Button />
     </form>
   );
 }

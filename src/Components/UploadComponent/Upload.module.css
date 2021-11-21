@@ -1,0 +1,26 @@
+.uploadFieldLabel{
+    font-size: 0.875em;
+    line-height: 20px;
+}
+
+.required{
+    color:#1771DD;
+    font-size: 1em;
+}
+
+.uploadField{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ADADAD;
+    height: 60px;
+    background: #FAFAFA;
+    border: 1px dashed #BCD4FF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 4px;
+    box-sizing: border-box;
+}

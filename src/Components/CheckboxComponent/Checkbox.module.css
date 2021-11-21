@@ -1,0 +1,22 @@
+/* Concent styles start*/
+.concentContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.checkBox {
+  width: 20px;
+  height: 20px;
+  border-radius: 1px solid #fefcfc;
+  margin-right: 8px;
+}
+
+.concentText{
+  font-size: 0.875rem;
+  line-height: 20px;
+  color: #333333;
+  font-weight: 400;
+}
+/* Concent styles end*/

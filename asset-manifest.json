@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/design-challenge/static/css/main.1d2ae54d.chunk.css",
-    "main.js": "/design-challenge/static/js/main.6c48d916.chunk.js",
-    "main.js.map": "/design-challenge/static/js/main.6c48d916.chunk.js.map",
+    "main.css": "/design-challenge/static/css/main.f323eb88.chunk.css",
+    "main.js": "/design-challenge/static/js/main.a286ebe3.chunk.js",
+    "main.js.map": "/design-challenge/static/js/main.a286ebe3.chunk.js.map",
     "runtime-main.js": "/design-challenge/static/js/runtime-main.92f7e406.js",
     "runtime-main.js.map": "/design-challenge/static/js/runtime-main.92f7e406.js.map",
-    "static/js/2.01a22863.chunk.js": "/design-challenge/static/js/2.01a22863.chunk.js",
-    "static/js/2.01a22863.chunk.js.map": "/design-challenge/static/js/2.01a22863.chunk.js.map",
+    "static/js/2.c6da8f1d.chunk.js": "/design-challenge/static/js/2.c6da8f1d.chunk.js",
+    "static/js/2.c6da8f1d.chunk.js.map": "/design-challenge/static/js/2.c6da8f1d.chunk.js.map",
     "index.html": "/design-challenge/index.html",
-    "static/css/main.1d2ae54d.chunk.css.map": "/design-challenge/static/css/main.1d2ae54d.chunk.css.map",
-    "static/js/2.01a22863.chunk.js.LICENSE.txt": "/design-challenge/static/js/2.01a22863.chunk.js.LICENSE.txt",
+    "static/css/main.f323eb88.chunk.css.map": "/design-challenge/static/css/main.f323eb88.chunk.css.map",
+    "static/js/2.c6da8f1d.chunk.js.LICENSE.txt": "/design-challenge/static/js/2.c6da8f1d.chunk.js.LICENSE.txt",
     "static/media/optilyz_logo.4013283b.svg": "/design-challenge/static/media/optilyz_logo.4013283b.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.92f7e406.js",
-    "static/js/2.01a22863.chunk.js",
-    "static/css/main.1d2ae54d.chunk.css",
-    "static/js/main.6c48d916.chunk.js"
+    "static/js/2.c6da8f1d.chunk.js",
+    "static/css/main.f323eb88.chunk.css",
+    "static/js/main.a286ebe3.chunk.js"
   ]
 }

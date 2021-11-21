@@ -9,13 +9,40 @@
   width: 50%;
 }
 
+.headingTitleContainer{
+    margin-top: 64px;
+    margin-bottom: 40px;
+}
+
+.headingTitle{
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #1771dd;
+  margin: 0px;
+}
+
+h3 {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: #1771dd;
+    margin: 0px;
+  }
+
 .required {
   color: #1771dd;
   font-size: 1em;
 }
 
-.inputfieldHeading,
-.uploadHeading {
+.inputfieldContainer{
+ margin-bottom: 34px;
+}
+
+.uploadHeadingContainer,
+.inputfieldHeading{
+    margin-bottom: 18px;
+}
+
+.inputfieldHeading{
   font-size: 1.25em;
   line-height: 28px;
   font-weight: 700;
@@ -24,6 +51,8 @@
 .helperText {
   font-size: 0.875em;
   line-height: 20px;
+  color: #656565;
+  margin-bottom: 24px;
 }
 
 /* divider */

@@ -8,6 +8,10 @@
     font-size: 1em;
 }
 
+.uploadFieldContainer{
+    margin-bottom: 24px;
+}
+
 .linkToUpload{
     color:#1771DD;
     text-decoration: underline;
@@ -28,4 +32,5 @@
     border-radius: 4px;
     margin-top: 4px;
     box-sizing: border-box;
+    cursor: pointer;
 }

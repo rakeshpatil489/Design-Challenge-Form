@@ -4,9 +4,9 @@ import logo from './optilyz_logo.svg';
 
 function Header() {
     return (
-        <div className={`${styles.headerContainer} ${styles.headerSticky}`}>
+        <header className={`${styles.headerContainer} ${styles.headerSticky}`}>
             <img src={logo} alt="Logo optilyz" height="40" ></img>
-        </div>
+        </header>
     )
 }
 

@@ -1,0 +1,16 @@
+.required{
+    color:#1771DD;
+    font-size: 1em;
+}
+
+.inputfieldHeading,
+.uploadHeading{
+    font-size: 1.25em;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.helperText{
+    font-size: 0.875em;
+    line-height: 20px;
+}

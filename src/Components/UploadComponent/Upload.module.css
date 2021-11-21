@@ -8,6 +8,11 @@
     font-size: 1em;
 }
 
+.linkToUpload{
+    color:#1771DD;
+    text-decoration: underline;
+}
+
 .uploadField{
     display: flex;
     flex-direction: row;

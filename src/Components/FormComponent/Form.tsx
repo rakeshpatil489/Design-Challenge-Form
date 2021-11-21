@@ -6,7 +6,7 @@ import styles from "./Form.module.css";
 
 function Form() {
   return (
-    <form>
+    <form className={styles.container}>
       {/* title of the form   */}
       <div className={styles.headingTitle}>
         <h2>Job Application</h2>
@@ -22,7 +22,6 @@ function Form() {
         <InputField />
         <InputField />
         <InputField />
-
       </div>
 
       <div className={styles.uploadContainer}>
@@ -31,10 +30,9 @@ function Form() {
           File accepcted - .PDF, .docs/docx - Max file size 20kb for each
         </label>
 
-        {/* Upload Fields */}  
+        {/* Upload Fields */}
         <Upload />
         <Upload />
-
       </div>
 
       {/* Divider */}

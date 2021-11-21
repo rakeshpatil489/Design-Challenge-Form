@@ -1,22 +1,28 @@
-.required{
-    color:#1771DD;
-    font-size: 1em;
+.container {
+    
+  margin: 0 auto;
+  max-width: 1110px;
+}
+
+.required {
+  color: #1771dd;
+  font-size: 1em;
 }
 
 .inputfieldHeading,
-.uploadHeading{
-    font-size: 1.25em;
-    line-height: 28px;
-    font-weight: 700;
+.uploadHeading {
+  font-size: 1.25em;
+  line-height: 28px;
+  font-weight: 700;
 }
 
-.helperText{
-    font-size: 0.875em;
-    line-height: 20px;
+.helperText {
+  font-size: 0.875em;
+  line-height: 20px;
 }
 
 /* divider */
-hr{
-    margin-bottom: 24px;
-    border: 1px solid #E6EEFF;
+hr {
+  margin-bottom: 24px;
+  border: 1px solid #e6eeff;
 }

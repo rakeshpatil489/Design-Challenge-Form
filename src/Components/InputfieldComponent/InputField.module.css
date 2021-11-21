@@ -1,0 +1,30 @@
+.inputfieldContainer{
+    margin-bottom: 24px; 
+}
+
+.inputFieldLabel{
+    font-size: 0.875em;
+    line-height: 20px;
+}
+
+.required{
+    color:#1771DD;
+    font-size: 1em;
+}
+
+.inputField{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    font-size: 1em;
+    line-height: 24px;
+    color: #ADADAD;
+    height: 40px;
+    background: #FAFAFA;
+    border: 1px solid #BCD4FF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 4px;
+}

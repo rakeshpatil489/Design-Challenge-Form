@@ -27,6 +27,7 @@ const Form = () => {
       <div className={styles.container}>
         
         <div className={styles.formWrapper}>
+
           {/* title of the form   */}
           <div className={styles.headingTitleContainer}>
             <h2 className={styles.headingTitle}>Job Application</h2>
@@ -65,11 +66,17 @@ const Form = () => {
             </div>
 
             {/* Upload Fields */}
-            <Upload label="Upload CV" />
-            <Upload label="Cover Letter" />
+            <Upload 
+             label="Upload CV" />
+            <Upload 
+             label="Cover Letter" />
+
           </div>
 
-          <Checkbox />
+          <Checkbox 
+           consentText="I accepect"
+           externalLink="Optilyz’s Privacy Policy"
+           />
 
           {/* Divider */}
           <hr />

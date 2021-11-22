@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   position: relative;
-  overflow: hidden;
 }
 
 .formWrapper {
@@ -63,6 +62,7 @@ hr {
   border: 1px solid #e6eeff;
 }
 
+/* Graphics Styling*/
 .graphicsLeft {
   width: 325px;
   height: 362px;
@@ -79,6 +79,7 @@ hr {
   top: 400px;
 }
 
+/* When the browser is less then 1025px and below */
 @media screen and (max-width: 1025px) {
   .graphicsLeft {
     left: -140px;
@@ -88,6 +89,7 @@ hr {
   }
 }
 
+/* When the browser is less then 769px and below */
 @media screen and (max-width: 769px) {
   .headingTitle {
     font-size: 1.75em;
@@ -102,6 +104,10 @@ hr {
 
 /* When the browser is less then 426px and below */
 @media screen and (max-width: 426px) {
+  .container {
+    width: unset;
+  }
+
   .headingTitleContainer {
     margin-top: 50px;
     margin-bottom: 32px;

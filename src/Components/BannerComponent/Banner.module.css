@@ -29,7 +29,7 @@ p.jobSubtitle {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 39%;
+  padding-right: 160px;
 }
 
 .graphicsTop {
@@ -38,4 +38,42 @@ p.jobSubtitle {
   position: absolute;
   left: 126px;
   top: -20px;
+}
+
+/* When the browser is less then 1025px and below */
+@media screen and (max-width: 1025px) {
+  .bannerWrapper {
+    width: 50%;
+    padding-right: 0px;
+  }
+  .graphicsTop {
+    left: -40px;
+  }
+}
+
+/* When the browser is less then 769px and below */
+@media screen and (max-width: 769px) {
+  .bannerContainer {
+    height: 180px;
+    margin-top: 87px;
+  }
+
+  h2 {
+    font-size: 1.75em;
+  }
+
+  .graphicsTop {
+    left: -97px;
+  }
+}
+
+/* When the browser is less then 426px and below */
+@media screen and (max-width: 426px) {
+  .bannerWrapper {
+    width: 90%;
+  }
+
+  .graphicsTop {
+    display: none;
+  }
 }

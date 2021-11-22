@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   position: relative;
+  overflow: hidden;
 }
 
 .formWrapper {
@@ -74,6 +75,35 @@ hr {
   width: 238px;
   height: 238px;
   position: absolute;
-  right: -21px;
+  right: 0px;
   top: 400px;
+}
+
+@media screen and (max-width: 1025px) {
+  .graphicsLeft {
+    left: -140px;
+  }
+  .graphicsRight {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .headingTitle {
+    font-size: 1.75em;
+  }
+  .formWrapper {
+    width: 90%;
+  }
+  .graphicsLeft {
+    display: none;
+  }
+}
+
+/* When the browser is less then 426px and below */
+@media screen and (max-width: 426px) {
+  .headingTitleContainer {
+    margin-top: 50px;
+    margin-bottom: 32px;
+  }
 }

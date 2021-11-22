@@ -1,23 +1,22 @@
-.buttonComponent{
-    width: 100%;
-    display: flex;
-    border: none;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 24px;
-    background: #1771DD;
-    color: #ffffff;
-    border-radius: 50px;
-    height: 48px;
-    font-size: 1em;
-    line-height: 32px;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: 0.5s;
-    box-shadow: 0px 4px 4px rgba(23, 113, 221, 0.1);
+.buttonComponent {
+  width: 100%;
+  display: flex;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  background: #1771dd;
+  color: #ffffff;
+  border-radius: 50px;
+  height: 48px;
+  font-size: 1em;
+  line-height: 32px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+  box-shadow: 0px 4px 4px rgba(23, 113, 221, 0.1);
 }
 
-.buttonComponent:hover{
-    background: #0B5DD3;
+.buttonComponent:hover {
+  background: #0b5dd3;
 }
-

@@ -1,10 +1,14 @@
 import React from 'react'
 import styles from "./Button.module.css";
 
-function Button() {
+interface Props{
+    buttonText: string;
+}
+
+const Button:React.FC<Props>  = ({buttonText}) => {
     return (
         <button className={styles.buttonComponent}>
-            Button Here
+           {buttonText}
         </button>
     )
 }

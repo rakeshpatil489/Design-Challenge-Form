@@ -5,7 +5,7 @@ import Button from "../ButtonComponent/Button";
 import Checkbox from "../CheckboxComponent/Checkbox";
 import styles from "./Form.module.css";
 
-function Form() {
+const Form = () => {
   return (
     <form className={styles.container}>
       <div className={styles.formWrapper}>
@@ -21,13 +21,24 @@ function Form() {
           <h3 className={styles.inputfieldHeading}>Personal Info</h3>
 
           {/* Inputfields */}
-          <InputField />
-          <InputField />
-          <InputField />
+          <InputField
+            label="Fullname"
+            type="text"
+            placeholder="Ex: Rakesh patil"
+          />
+          <InputField
+            label="Email Address"
+            type="text"
+            placeholder="Ex: Rakesh@gmail.com"
+          />
+          <InputField
+            label="Portfolio Link"
+            type="text"
+            placeholder="Ex: www.rakesh-patil.com"
+          />
         </div>
 
         <div className={styles.uploadContainer}>
-
           <div className={styles.uploadHeadingContainer}>
             <h3 className={styles.uploadHeading}>Upload Documents</h3>
             <label className={styles.helperText}>
@@ -36,8 +47,8 @@ function Form() {
           </div>
 
           {/* Upload Fields */}
-          <Upload />
-          <Upload />
+          <Upload label="Upload CV" />
+          <Upload label="Cover Letter" />
         </div>
 
         <Checkbox />
@@ -46,10 +57,10 @@ function Form() {
         <hr />
 
         {/* Button Component */}
-        <Button />
+        <Button buttonText="submit application" />
       </div>
     </form>
   );
-}
+};
 
 export default Form;

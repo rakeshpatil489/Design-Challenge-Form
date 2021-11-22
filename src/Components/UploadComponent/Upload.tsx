@@ -1,10 +1,14 @@
 import React from 'react'
 import styles from "./Upload.module.css";
 
-function Upload() {
+interface Props{
+    label: string;
+}
+
+const Upload:React.FC<Props> = ({label}) => {
     return (
         <div className={styles.uploadFieldContainer}>
-            <label className={styles.uploadFieldLabel}> Label <span className={styles.required}>*</span></label>
+            <label className={styles.uploadFieldLabel}> {label} <span className={styles.required}>*</span></label>
             <div className={styles.uploadField}>
                 <span className={styles.linkToUpload}>Choose a file</span> (or) Drop a file.
             </div>

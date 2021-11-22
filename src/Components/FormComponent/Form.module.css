@@ -95,7 +95,7 @@ hr {
     font-size: 1.75em;
   }
   .formWrapper {
-    width: 90%;
+    width: 50%;
   }
   .graphicsLeft {
     display: none;
@@ -106,6 +106,10 @@ hr {
 @media screen and (max-width: 426px) {
   .container {
     width: unset;
+  }
+
+  .formWrapper {
+    width: 90%;
   }
 
   .headingTitleContainer {

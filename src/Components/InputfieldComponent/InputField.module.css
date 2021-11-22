@@ -1,31 +1,35 @@
-.inputfieldContainer{
-    margin-bottom: 24px; 
+.inputfieldContainer {
+  margin-bottom: 24px;
 }
 
-.inputFieldLabel{
-    font-size: 0.875em;
-    line-height: 20px;
-    color: #333333;
+.inputFieldLabel {
+  font-size: 0.875em;
+  line-height: 20px;
+  color: #333333;
 }
 
-.required{
-    color:#1771DD;
-    font-size: 1em;
+.required {
+  color: #1771dd;
+  font-size: 1em;
 }
 
-.inputField{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 8px;
-    font-size: 1em;
-    line-height: 24px;
-    color: #ADADAD;
-    height: 40px;
-    background: #FAFAFA;
-    border: 1px solid #BCD4FF;
-    box-sizing: border-box;
-    border-radius: 4px;
-    margin-top: 4px;
+.inputField {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  font-size: 1em;
+  line-height: 24px;
+  height: 40px;
+  background: #fafafa;
+  border: 1px solid #bcd4ff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+::placeholder {
+  color: #adadad;
+  font-weight: normal;
+  font-family: "Nunito Sans", sans-serif;
 }

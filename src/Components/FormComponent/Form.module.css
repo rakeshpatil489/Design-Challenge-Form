@@ -3,18 +3,19 @@
   max-width: 1110px;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .formWrapper {
   width: 50%;
 }
 
-.headingTitleContainer{
-    margin-top: 64px;
-    margin-bottom: 40px;
+.headingTitleContainer {
+  margin-top: 64px;
+  margin-bottom: 40px;
 }
 
-.headingTitle{
+.headingTitle {
   font-size: 2.5em;
   font-weight: 700;
   color: #1771dd;
@@ -22,27 +23,27 @@
 }
 
 h3 {
-    font-size: 1.25em;
-    font-weight: 700;
-    color: #333333;
-    margin: 0px;
-  }
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #333333;
+  margin: 0px;
+}
 
 .required {
   color: #1771dd;
   font-size: 1em;
 }
 
-.inputfieldContainer{
- margin-bottom: 34px;
+.inputfieldContainer {
+  margin-bottom: 34px;
 }
 
 .uploadHeadingContainer,
-.inputfieldHeading{
-    margin-bottom: 18px;
+.inputfieldHeading {
+  margin-bottom: 18px;
 }
 
-.inputfieldHeading{
+.inputfieldHeading {
   font-size: 1.25em;
   line-height: 28px;
   font-weight: 700;
@@ -59,4 +60,20 @@ h3 {
 hr {
   margin-bottom: 24px;
   border: 1px solid #e6eeff;
+}
+
+.graphicsLeft {
+  width: 325px;
+  height: 362px;
+  position: absolute;
+  left: -34px;
+  top: 600px;
+}
+
+.graphicsRight {
+  width: 238px;
+  height: 238px;
+  position: absolute;
+  right: -21px;
+  top: 400px;
 }

@@ -74,7 +74,7 @@ const Form = () => {
           </div>
 
           <Checkbox 
-           consentText="I accepect"
+           consentText="I accept"
            externalLink="Optilyz’s Privacy Policy"
            />
 

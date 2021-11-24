@@ -2,14 +2,14 @@ import React from 'react'
 import styles from './Banner.module.css';
 import graphics from '../../Assets/top-graphics.svg';
 
-interface Props{
+interface BannerProps {
     jobTitle: string;
     position: string;
     place: string;
     country: string;
 }
 
-const Banner:React.FC<Props> = ({jobTitle, position, place, country }) => {
+const Banner:React.FC<BannerProps> = ({ jobTitle, position, place, country }) => {
     return (
         <div className={styles.bannerContainer}>
             <img className={styles.graphicsTop} src={graphics} alt="graphics"/>

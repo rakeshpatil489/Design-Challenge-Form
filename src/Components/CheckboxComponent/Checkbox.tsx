@@ -1,12 +1,12 @@
 import React from 'react'
 import styles from "./Checkbox.module.css";
 
-interface Props{
+interface checkboxProps{
     consentText: string;
     externalLink: string;
 }
 
-const Checkbox:React.FC<Props> = ({consentText,externalLink }) => {
+const Checkbox:React.FC<checkboxProps> = ({consentText,externalLink }) => {
     return (
         <div className={styles.concentContainer}>
         <input type="checkbox" className={styles.checkBox}/>
